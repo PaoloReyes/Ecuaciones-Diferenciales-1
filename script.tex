@@ -1,0 +1,117 @@
+\documentclass[12pt, letterpaper]{article}
+
+% Paquete para definir los márgenes
+\usepackage{geometry}
+% Paquete para tener texto nativo de LaTeX en español
+\usepackage[spanish]{babel}
+% Paquete para usar tildes como caracteres únicos y no compuestos
+\usepackage[T1]{fontenc}
+% Paquete para justificar texto
+\usepackage{ragged2e}
+
+\geometry{margin=1.3in}
+
+\begin{document}
+    % Página de título
+    \begin{titlepage}
+        \begin{center}
+            \vspace{4cm}
+            \textbf{\Huge{!Script para video de Ecuaciones Diferenciales!\\}}
+            \vspace{3cm}
+            \textit{\Large{Capítulo 1: ¿Qué son las Ecuaciones Diferenciales?\\}}
+            \vfill
+            \justifying
+            \noindent
+            \textnormal{En este primer script se tocarán temas básicos sobre las ecuaciones diferenciales, todo lo que me hubiera gustado saber cuando me comenzaban a hablar de ellas y yo ni siquiera sabía que debían dar como resultado.}
+        \end{center}
+        \vfill
+        \textsc{Paolo Reyes}\hfill
+        \textsc{\today}
+    \end{titlepage}
+    
+    %Índice
+    \tableofcontents{}
+    \newpage
+
+    % Página de guión
+    \section{Introducción}
+        \noindent
+            En este video vamos a comenzar una serie sobre ecuaciones diferenciales, en esta busco mostrar realmente la aplicación de esta rama de las matemáticas y dejar de ver estas expresiones solo como un tema complejo que tenemos que aprender más allá del cálculo diferencial e integral.
+
+    \section{¿Qué son las Ecuaciones Diferenciales?}
+        \noindent
+            Podemos comenzar a hablar de ecuaciones diferenciales partiendo de un ejemplo, si tenemos a la función $y = e^{0.1x^2}$ y queremos encontrar su derivada podemos hacerlo mediante la regla de la cadena, de esa forma encontramos que $\frac{dy}{dx} = 0.2x e^{0.1x^2}$. Si ponemos ambas funciones en la pantalla nos damos cuenta que la derivada de $y$ es igual a $y$ multiplicada por un número, entonces podemos sustituir $e^{0.1x^2}$ por $y$ y escribir la relación entre la derivada y la función original en una sola expresión $\frac{dy}{dx} = 0.2xy$ y esto es una ecuación diferencial, no es más que una expresión matemática que guarda la relación entre una función y sus derivadas.
+
+    \section{Clasificación}
+        \noindent
+            Debido a la gran variedad de ecuaciones diferenciales que existen y a los diversos métodos para resolverlas es necesario clasificarlas para poder trabajar con ellas de una forma más ordenada, podemos separarlas en 3 principales categorías:
+            \begin{enumerate}
+                \item Tipo
+                \item Orden
+                \item Linealidad
+            \end{enumerate}
+        \subsection{Tipo}
+            \noindent
+                La clasificación por tipo es quizá una de las más fáciles de comprender ya que solo se divide en dos, EDO y EDP, EDO significa ecuación diferencial ordinaria, y son ecuaciones que solo contienen derivadas respecto a una variable independiente, se pueden identificar facilmente con solo observar las derivadas y verificar que todas las variables con respecto a las que se derive sean la misma, mientras que las EDP que vienen de ecuación diferencial parcial, son aquellas que contienen derivadas respecto a dos o más variables independientes, estas se pueden identificar haciendo el mismo análisis que con las ecuaciones diferenciales ordinarias y verificar si hay almenos dos variables diferentes. Otra forma de identificarlas es observar si la ecuación diferencial usa el símbolo $\delta$ en lugar de una $d$ esto quiere decir que estamos tratando con derivadas parciales y en la mayoría de los casos tambien significa que estamos ante una ecuación diferencial parcial.
+            \par
+                Las ecuaciones diferenciales ordinarias son las más comunes y las que se usan en la mayoría de las aplicaciones básicas, por lo que en este video nos enfocaremos en ellas y posiblemente en un futuro haga un video sobre sus extrañas hermanas las ecuaciones diferenciales parciales.
+        \subsection{Orden}
+            \noindent
+                Es momento de hablar del segundo criterio para clasificar ecuaciones diferenciales. El orden es un valor que nos indica cual es la mayor derivada de la ecuación. Por ejemplo, si tenemos la ecuación diferencial $\frac{dy}{dx} = 0.2xy$ podemos catalogarla como de primer orden porque que su máxima derivada es la primera derivada de y, por otro lado si tenemos la ecuación diferencial $\frac{d^2y}{dx^2} =  0.2xy+\frac{dy}{dx}$ entonces tenemos una ecuación diferencial de segundo orden porque su máxima derivada es la segunda derivada de y.
+            \par
+                Es importante notar que el orden no es lo mismo que el grado en una ecuación diferencial y por lo tanto no debe ser confundido, por ejemplo en la siguiente ecuación $\frac{d^2y}{dx^2}+5\left(\frac{dy}{dx}\right)^3-4y=e^x$ se podría confundir el orden con el grado, sorprendentemente el orden de esta ecuación es 2 y no 3, esto se debe a que el 3 que está al lado de la derivada no es su orden si no que es su grado y significa que se está elevando al cubo, por lo tanto la derivada de mayor orden y por ende el orden de la ecuación es el orden 2.
+            \par
+                Hay algunos tips para identificar el orden de una ecuación diferencial ordinaria por ejemplo en ocasiones se suele usar una notación diferencial para describir ecuaciones diferenciales de primer orden $M(x, y)dx+N(x, y)dy=0$ en este tipo de notación se escribe una función multivariable $M$ multiplicada por $dx$ y otra función multivariable $N$ multiplicada por $dy$, en esos casos las ecuaciones siempre son de primer orden.
+                En otros ejemplos podemos encontrar ecuaciones diferenciales de n-ésimo orden por su \textbf{forma general} donde tenemos una función igualada a 0 cuyas variables son $x$, $y$, $y'$, $y''$, $y'''$ y así hasta $y^n$ $F(x, y, y', ..., y^n) = 0$ y para identificar el orden de estas ecuaciones miramos cada derivada como lo hemos hecho hasta el momento y buscamos la más profunda $\frac{d^2y}{dx^2}+5\left(\frac{dy}{dx}\right)^3-4y-e^x=0$, finalmente podemos encontrar ecuaciones diferenciales en su \textbf{forma normal} que no es más que la forma general despejada para la derivada de mayor orden $\frac{d^ny}{dx^n}=f(x,y,y',...,y^{(n-1)})$ $\frac{d^2y}{dx^2}=f(x,y,y')$ $\frac{dy}{dx}=f(x,y)$ y en ese caso el orden se encuentra simplemente mirando al término que está solo en la igualdad.
+                Estos son solo algunos tips para identificar más facilmente el orden de una ecuación diferencial, pero en general es necesario hacer una inspección completa para determinar su orden.
+
+        \subsection{Linealidad}
+            \noindent
+                El último criterio para clasificar ecuaciones diferenciales es la linealidad, una ecuación diferencial es lineal cuando se ve de la siguiente forma $a_n(x)\frac{d^ny}{dx^n}+a_{n-1}(x)\frac{d^{n-1}y}{dx^{n-1}}+...+a_1(x)\frac{dy}{dx}+a_0(x)y=g(x)$. En ella podemos identificar la variable dependiente y sus derivadas y cada una multiplica a un coeficiente $a_n$ que son funciones de la variable independiente $x$ y además hay una función $g$ que es independiente de $y$ y sus derivadas.
+                En palabras más simples podemos decir que una ecuación diferencial es lineal cuando tenemos la función incógnita $y$ y sus derivadas multiplicadas por funciones que solamente dependen de $x$. Algunos ejemplos de ecuaciones diferenciales lineales son los siguientes: $1\frac{d^2y}{dx^2}-2\frac{dy}{dx}+1y=0$, $x^3\frac{d^3y}{dx^3}+0\frac{d^2y}{dx^2}+x\frac{dy}{dx}-5y=e^x$
+            \par
+                Por otro lado algunos ejemplos de ecuaciones diferenciales no lineales son: $(1-y)\frac{dy}{dx}+2y=e^x$ porque la derivada de $y$ respecto a $x$ multiplica a una función que depende de $y$, la $\frac{d^2y}{dx^2}+sen(y)=0$ porque incluye una función no lineal de $y$ como lo es el seno y $\frac{d^4y}{dx^4}+y^2=0$ porque la función incógnita $y$ está elevada al cuadrado y por lo tanto no es lineal.
+                Con estos ejemplos es evidente que una ecuación diferencial deja de ser lineal cuando almenos uno de sus términos no lo es.
+        
+    \section{Soluciones}
+        \noindent
+            Ya sabemos clasificar ecuaciones diferenciales pero aun puede ser confuso saber que esperamos como resultado cuando las resolvamos.
+            Como se vió de manera implícita al inicio del video a lo que nos referimos por \emph{``solución de una ecuación diferencial''} es a tratar de encontrar una función que satisfaga la igualdad planteada en la ecuación.
+        \par 
+            Como ejemplo de ello podemos volver a escribir la ecuación diferencial del inicio $\frac{dy}{dx} = 0.2xy$ y lo que esperaríamos obtener es una función $y$ que dependa de $x$ que al derivarla sea igual a multiplicar la función original por $0.2x$. 
+        \subsection{Intervalo de Definición}
+            \noindent
+                Con el ejemplo que está en pantalla vemos que la solución de la ecuación diferencial es $y = e^{0.1x^2}$ antes de continuar quiero resaltar que esta no es la única solución de la ecuación, si ponemos atención es evidente que $y=0$ es también una solución ya que su derivada también es 0 y si sustituimos en la ecuación vemos que se cumple la igualdad, a esta solución que es igual a 0 se le llama solución trivial, pero volviendo a la primera solución nos surge una pregunta interesante ¿La función $y$ es válida para todo $x$? basicamente lo que nos estamos preguntando es si la función es continua en todos sus puntos ya que al estar relacionada con su derivada si esta fuera discontinua entonces no sería derivable.
+            \par
+                Determinar si una función es continua en un intervalo es muy sencillo y se puede hacer de dos formas, la primera es mirando la gráfica de la función y viendo que no haya saltos o puntos sin definir aunque esto no siempre es lo mejor ya que no podemos seguir viendo la gráfica hasta el infinito y la segunda es mirando la definición matemática de la función en este caso $e^{0.1x^2}$ es evidente que ningún valor de x produciría un valor indefinido como salida ya que elevar un número a cualquier otro siempre está definido. Por lo tanto podemos decir que el intervalo de definición de la solución es $(-\infty, \infty)$.
+            \par 
+                Es importante siempre considerar el intervalo de definición de una solución ya que si no lo hacemos podemos caer en errores como el siguiente, si nos encontramos con la ecuación diferencial $x\frac{dy}{dx}+y=0$ encontramos que la solución es: $y = \frac{1}{x}$, si no consideramos el intervalo de definición de la solución podemos pensar que es válida para todo $x$ pero si ponemos atención vemos que la función no está definida para $x = 0$  por que dividir 1 entre 0 está indeterminado y por lo tanto el intervalo de definición de la solución no está definido para todo x, aquí es donde tenemos que diferenciar entre el dominio de la función y el intervalo de solución ya que no son siempre iguales.
+        \subsection{Curva de Solución}
+            \noindent
+                El dominio de está función es $(-\infty, 0) \cup (0, \infty)$ lo que excluye el 0, pero para el intervalo de solución tenemos que escoger un intervalo que no esté compuesto por uniones y no contenga a 0, por ejemplo: $(-3, -1)$, $(\frac{1}{2},10)$, $(-\infty, 0)$ o $(0, \infty)$ A estas curvas producidas por cada intervalo se les conoce como \emph{``Curvas de solución''}. En este caso queda excluido el dominio de la función $(-\infty, 0) \cup (0, \infty)$ como un intervalo de solución válido porque está formado a partir de uniones de subintervalos.
+            \par
+                En general cuando vamos a escoger el intervalo de definición de una solución solemos tomar el más grande o el que tenga más relevancia para el problema que tratamos de resolver en este caso sería lógico pensar que el intervalo de definición de la solución más representativo es $(0, \infty)$ porque es uno de los dos más grandes y generalmente los números positivos son los que más se usan en las aplicaciones reales.
+        \subsection{Soluciones Explícitas e Implícitas}
+            \noindent
+                Las soluciones de ecuaciones diferenciales no siempre son explícitas, algunas veces las podemos encontrar de forma implícita. Para este punto ya deben tener bastante claro que es una solución explícita y que es una solución implícita, pero para que no haya dudas las definiremos de nuevo, una solución explícita es aquella en la que podemos expresar a la variable dependiente solo en términos de la variable independiente, este tipo de soluciones son las que conocemos de toda la vida, si volvemos al ejemplo anterior donde teníamos esta ecuación $x\frac{dy}{dx}+y=0$ y sabíamos que su solución era $y = \frac{1}{x}$ vemos que la variable dependiente $y$ está expresada solamente en términos de la variable independiente $x$; por otro lado las soluciones implícitas son aquellas donde no podemos expresar a la variable dependiente solamente en términos de la variable independiente como en este caso $\frac{dy}{dx}=-\frac{x}{y}$ y tenemos que conformarnos con una solución como esta $x^2+y^2=25$ la cual produce la siguiente gráfica en forma de círculo, la razón por la que tenemos que usar la expresión implícita en lugar de tratar de despejar para $y$ es porque muchas veces es imposible hacer este despeje o en otros casos como en este al depejarla obtenemos dos soluciones diferentes $y_1=-\sqrt{25-x^2}$ $y_2=\sqrt{25-x^2}$ en lugar de una y estas representan solo tramos de la expresión general. Por ello, conformarnos con la expresión implícita es la mejor opción para encapsular la solución.
+        \subsection{Familias de Soluciones}
+            \noindent
+                Es momento de hablar de familias de soluciones, al igual que cuando en cálculo integral obtenemos una integral indefinida y agregamos una constante de integración, cuando resolvemos una ecuación diferencial obtenemos una solución que contiene una o más constantes, esto significa que una ecuación diferencial puede tener un número infinito de soluciones dependiendo de las constantes que se elijan, a esto se le conoce como \emph{``Familia de soluciones''} y cuando la solución no tiene ninguna constante o estas ya han sido definidas se dice que estamos ante una \emph{``solución particular''}.
+        \subsection{Soluciones Particulares}
+            \noindent
+                Algunos ejemplos para soluciones particulares de la siguiente ecuación diferencial $\frac{d^2y}{dx^2}-2\frac{dy}{dx}+y=0$ con la siguiente familia de soluciones $y=c_1e^x+c_2xe^x$ son estas:
+            \par 
+                En este caso es evidente que esta ecuación también tiene una solución trivial $y=0$. Ahora bien, sin importar la combinación  de $c_1$ y $c_2$ que pongamos en la familia de soluciones, nunca vamos a llegar a la solución trivial, cuando esta discrepancia entre la familia de soluciones y algunas otras soluciones independientes ocurre decimos que tenemos una \emph{``solución singular''}.
+        \subsection{Soluciones Generales}
+            \noindent
+                Por otro lado si la familia de soluciones puede describir a todas las soluciones o que es lo mismo que decir que no hay soluciones particulares entonces la familia es la \emph{``solución general''} de la ecuación diferencial ya que fuera de ella no hay ninguna otra solución.
+        \subsection{Combinación Lineal de Soluciones}
+            \noindent
+                Antes de concluir quiero resaltar un concepto que suele resultar confuso al comenzar a resolver ecuaciones diferenciales lineales y es la combinación lineal de soluciones, basicamente es la idea de que si obtenemos dos o más soluciones linealmente independientes (que significa que sin importar el valor de la constante $c$ no podemos llegar de una solución a otra) podemos sumar cada una para obtener una solución más general que como ya mencioné significa ``una solución que engloba mejor la totalidad de soluciones en una familia de soluciones''
+            \par
+                Para demostrarlo tenemos tenemos la siguiente ecuación diferencial $\frac{d^2y}{dx^2}+16y=0$ que tiene dos soluciones linealmente independientes. $y_1=c_1\cos(4t)$ y $y_2=c_2\sin(4t)$. Podemos comprobar que ambas son soluciones si las sustituimos en la ecuación diferencial. Pero algo interesante es que podemos sumar ambas funciones para obtener una solución más general que es $y=c_1\cos(4t)+c_2\sin(4t)$, esto es posible porque las dos soluciones son linealmente independientes, si no lo fueran entonces no podríamos sumarlas. Ahora bien, si sustituimos en la ecuación diferencial vemos que la igualdad se sigue cumpliendo, esto se debe a que las mismas partes de la ecuación que se cancelaban en sus expresiones independientes se siguen cancelando en la expresión global.
+    \section{Conclusión}
+        \noindent
+            Esta fue una introducción a que son las ecuaciones diferenciales y los conceptos que hay que saber sobre ellas antes de comenzar aplicar ``fórmulas'' para resolverlas, quiero aclarar que en esta serie no solo aprenderemos a resolver ecuaciones diferenciales sino que también a hacer su modelado y aplicación en la vida real.
+
+\end{document}

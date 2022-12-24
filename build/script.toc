@@ -1,0 +1,16 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{2}{}%
+\contentsline {section}{\numberline {2}¿Qué son las Ecuaciones Diferenciales?}{2}{}%
+\contentsline {section}{\numberline {3}Clasificación}{2}{}%
+\contentsline {subsection}{\numberline {3.1}Tipo}{2}{}%
+\contentsline {subsection}{\numberline {3.2}Orden}{3}{}%
+\contentsline {subsection}{\numberline {3.3}Linealidad}{4}{}%
+\contentsline {section}{\numberline {4}Soluciones}{4}{}%
+\contentsline {subsection}{\numberline {4.1}Intervalo de Definición}{4}{}%
+\contentsline {subsection}{\numberline {4.2}Curva de Solución}{5}{}%
+\contentsline {subsection}{\numberline {4.3}Soluciones Explícitas e Implícitas}{5}{}%
+\contentsline {subsection}{\numberline {4.4}Familias de Soluciones}{6}{}%
+\contentsline {subsection}{\numberline {4.5}Soluciones Particulares}{6}{}%
+\contentsline {subsection}{\numberline {4.6}Soluciones Generales}{6}{}%
+\contentsline {subsection}{\numberline {4.7}Combinación Lineal de Soluciones}{6}{}%
+\contentsline {section}{\numberline {5}Conclusión}{7}{}%

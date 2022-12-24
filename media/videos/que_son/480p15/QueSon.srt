@@ -1,0 +1,60 @@
+1
+00:00:00,000 --> 00:00:01,749
+Podemos comenzar a hablar de ecuaciones
+
+2
+00:00:01,849 --> 00:00:03,504
+diferenciales partiendo de un ejemplo
+
+3
+00:00:03,666 --> 00:00:05,964
+Si tenemos a la función <bookmark mark='A'/> y igual a e
+
+4
+00:00:06,064 --> 00:00:08,961
+elevado a 0.1 x al <bookmark mark='B'/> cuadrado y obtenemos <bookmark
+
+5
+00:00:09,061 --> 00:00:11,530
+mark='C'/> su derivada, vemos que es igual a 0.2 x <bookmark
+
+6
+00:00:11,630 --> 00:00:14,356
+mark='D'/> por e elevado a 0.1 x al cuadrado <bookmark mark='E'/>.
+
+7
+00:00:14,456 --> 00:00:17,439
+Si ponemos ambas funciones en la pantalla nos damos <bookmark mark='F'/>
+
+8
+00:00:17,539 --> 00:00:19,965
+cuenta que la derivada de <bookmark mark='G'/> y es igual a
+
+9
+00:00:20,065 --> 00:00:23,776
+ye <bookmark mark='H'/> multiplicada por un número <bookmark mark='I'/>, entonces podemos
+
+10
+00:00:23,876 --> 00:00:26,474
+sustituir e elevada <bookmark mark='J'/> a la 0.1 x al cuadrado
+
+11
+00:00:26,574 --> 00:00:29,385
+por ye <bookmark mark='K'/> y escribir la relación entre la derivada
+
+12
+00:00:29,485 --> 00:00:32,554
+y la <bookmark mark='L'/> función original en una sola expresión <bookmark
+
+13
+00:00:32,654 --> 00:00:35,808
+mark='M'/>, esto es una ecuación <bookmark mark='N'/> diferencial, no es más
+
+14
+00:00:35,908 --> 00:00:39,148
+que una expresión matemática que guarda <bookmark mark='O'/> la relación entre
+
+15
+00:00:39,248 --> 00:00:40,347
+una función y sus derivadas.
+

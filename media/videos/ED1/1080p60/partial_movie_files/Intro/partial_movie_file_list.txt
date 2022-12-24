@@ -1,0 +1,3 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/Youtube/ED/Capitulo 1/media/videos/ED1/1080p60/partial_movie_files/Intro/3180603658_481129132_2358810818.mp4'
+file 'file:D:/Youtube/ED/Capitulo 1/media/videos/ED1/1080p60/partial_movie_files/Intro/1854636345_3665899846_3120212624.mp4'

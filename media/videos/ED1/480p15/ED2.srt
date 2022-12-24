@@ -1,0 +1,76 @@
+1
+00:00:00,000 --> 00:00:03,956
+La clasificación por tipo es quizá una de las más fáciles
+
+2
+00:00:04,056 --> 00:00:08,511
+de comprender ya que solo se divide <bookmark mark='A'/> en dos,
+
+3
+00:00:08,611 --> 00:00:15,131
+EDO y EDP, EDO <bookmark mark='WAIT_EDO'/> significa ecuación diferencial ordinaria <bookmark
+
+4
+00:00:15,231 --> 00:00:20,967
+mark='EDO_MEANING'/>, y son ecuaciones que solo contienen derivadas respecto a una
+
+5
+00:00:21,067 --> 00:00:28,440
+variable independiente <bookmark mark='DISPLAY_EDO'/>, se pueden identificar facilmente con solo observar
+
+6
+00:00:28,540 --> 00:00:32,995
+las derivadas y verificar que todas las variables con respecto a
+
+7
+00:00:33,095 --> 00:00:36,767
+las que se derive sean la misma, mientras que las EDP
+
+8
+00:00:36,867 --> 00:00:42,461
+que vienen de ecuación diferencial parcial, son aquellas que contienen derivadas
+
+9
+00:00:42,561 --> 00:00:47,728
+respecto a dos o más variables independientes, estas se pueden identificar
+
+10
+00:00:47,828 --> 00:00:53,137
+haciendo el mismo análisis que con las ecuaciones diferenciales ordinarias y
+
+11
+00:00:53,237 --> 00:00:58,760
+verificar si hay almenos dos variables diferentes. Otra forma de identificarlas
+
+12
+00:00:58,860 --> 00:01:02,888
+es observar si la ecuación diferencial usa el símbolo δ en
+
+13
+00:01:02,988 --> 00:01:06,944
+lugar de una d esto quiere decir que estamos tratando con
+
+14
+00:01:07,044 --> 00:01:11,642
+derivadas parciales y en la mayoría de los casos tambien significa
+
+15
+00:01:11,742 --> 00:01:18,047
+que estamos ante una ecuación diferencial parcial. Las ecuaciones diferenciales ordinarias
+
+16
+00:01:18,147 --> 00:01:21,108
+son las más comunes y las que se usan en la
+
+17
+00:01:21,208 --> 00:01:25,449
+mayoría de las aplicaciones básicas, por lo que en este video
+
+18
+00:01:25,549 --> 00:01:29,720
+nos enfocaremos en ellas y posiblemente en un futuro haga un
+
+19
+00:01:29,820 --> 00:01:34,916
+video sobre sus extrañas hermanas las ecuaciones diferenciales parciales.
+

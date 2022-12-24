@@ -1,0 +1,108 @@
+1
+00:00:00,000 --> 00:00:04,013
+En este video vamos a comenzar una serie sobre ecuaciones
+
+2
+00:00:04,113 --> 00:00:08,920
+diferenciales, en ella busco mostrar realmente la aplicación de esta
+
+3
+00:00:09,020 --> 00:00:12,961
+rama de las matemáticas y dejar de ver estas expresiones
+
+4
+00:00:13,061 --> 00:00:17,507
+solo como un tema complejo que tenemos <bookmark mark='A'/> que
+
+5
+00:00:17,607 --> 00:00:21,332
+aprender más allá del cálculo diferencial e integral.
+
+6
+00:00:21,466 --> 00:00:24,236
+Podemos comenzar a hablar de ecuaciones
+
+7
+00:00:24,336 --> 00:00:26,958
+diferenciales partiendo de un ejemplo
+
+8
+00:00:27,066 --> 00:00:30,141
+Si tenemos a la función <bookmark mark='A'/> y igual a e
+
+9
+00:00:30,241 --> 00:00:33,542
+elevado a 0.1 x al cuadrado y queremos encontrar su derivada
+
+10
+00:00:33,642 --> 00:00:38,134
+<bookmark mark='B'/> podemos hacerlo mediante la regla de <bookmark mark='C'/> la
+
+11
+00:00:38,234 --> 00:00:42,216
+cadena, de esa forma encontramos que la <bookmark mark='D'/> derivada de
+
+12
+00:00:42,316 --> 00:00:45,164
+y respecto a x <bookmark mark='E'/> es igual a 0.2 x
+
+13
+00:00:45,264 --> 00:00:48,792
+<bookmark mark='F'/> por e elevado a 0.1 x al cuadrado <bookmark
+
+14
+00:00:48,892 --> 00:00:52,761
+mark='G'/>. Si ponemos ambas funciones en la pantalla nos damos cuenta
+
+15
+00:00:52,861 --> 00:00:56,786
+que <bookmark mark='H'/> la derivada de <bookmark mark='I'/> y es igual
+
+16
+00:00:56,886 --> 00:01:01,491
+a ye <bookmark mark='J'/> multiplicada por un número <bookmark mark='K'/>, entonces
+
+17
+00:01:01,591 --> 00:01:05,006
+podemos sustituir e elevada <bookmark mark='L'/> a la 0.1 x al
+
+18
+00:01:05,106 --> 00:01:08,861
+cuadrado por ye <bookmark mark='M'/> y escribir la relación entre la
+
+19
+00:01:08,961 --> 00:01:13,000
+derivada y la <bookmark mark='N'/> función original en una sola expresión
+
+20
+00:01:13,100 --> 00:01:17,649
+<bookmark mark='O'/>, esto es una ecuación <bookmark mark='P'/> diferencial, no es
+
+21
+00:01:17,749 --> 00:01:21,334
+más que una expresión matemática que guarda la relación entre una
+
+22
+00:01:21,434 --> 00:01:22,694
+función y sus derivadas.
+
+23
+00:01:22,733 --> 00:01:26,320
+Debido a la gran variedad <bookmark mark='A'/> de ecuaciones
+
+24
+00:01:26,420 --> 00:01:29,700
+diferenciales que existen y a los diversos métodos para
+
+25
+00:01:29,800 --> 00:01:34,554
+resolverlas es <bookmark mark='B'/> necesario clasificarlas para poder trabajar
+
+26
+00:01:34,654 --> 00:01:37,872
+con ellas de una forma más ordenada, podemos <bookmark
+
+27
+00:01:37,972 --> 00:01:40,945
+mark='C'/> separarlas en 3 principales categorías:
+

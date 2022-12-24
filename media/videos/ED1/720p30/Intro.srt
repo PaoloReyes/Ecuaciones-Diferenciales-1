@@ -1,0 +1,88 @@
+1
+00:00:00,000 --> 00:00:04,013
+En este video vamos a comenzar una serie sobre ecuaciones
+
+2
+00:00:04,113 --> 00:00:08,920
+diferenciales, en ella busco mostrar realmente la aplicación de esta
+
+3
+00:00:09,020 --> 00:00:12,961
+rama de las matemáticas y dejar de ver estas expresiones
+
+4
+00:00:13,061 --> 00:00:17,507
+solo como un tema complejo que tenemos <bookmark mark='A'/> que
+
+5
+00:00:17,607 --> 00:00:21,332
+aprender más allá del cálculo diferencial e integral.
+
+6
+00:00:21,433 --> 00:00:24,202
+Podemos comenzar a hablar de ecuaciones
+
+7
+00:00:24,302 --> 00:00:26,925
+diferenciales partiendo de un ejemplo
+
+8
+00:00:27,033 --> 00:00:30,041
+Si tenemos a la función <bookmark mark='A'/> y igual a e
+
+9
+00:00:30,141 --> 00:00:33,372
+elevado a 0.1 x al cuadrado y queremos encontrar su derivada
+
+10
+00:00:33,472 --> 00:00:37,868
+<bookmark mark='B'/> podemos hacerlo mediante la regla de <bookmark mark='C'/> la
+
+11
+00:00:37,968 --> 00:00:41,864
+cadena, de esa forma encontramos que la <bookmark mark='D'/> derivada de
+
+12
+00:00:41,964 --> 00:00:44,750
+y respecto a x <bookmark mark='E'/> es igual a 0.2 x
+
+13
+00:00:44,850 --> 00:00:48,303
+<bookmark mark='F'/> por e elevado a 0.1 x al cuadrado <bookmark
+
+14
+00:00:48,403 --> 00:00:52,188
+mark='G'/>. Si ponemos ambas funciones en la pantalla nos damos cuenta
+
+15
+00:00:52,288 --> 00:00:56,129
+que <bookmark mark='H'/> la derivada de <bookmark mark='I'/> y es igual
+
+16
+00:00:56,229 --> 00:01:00,736
+a ye <bookmark mark='J'/> multiplicada por un número <bookmark mark='K'/>, entonces
+
+17
+00:01:00,836 --> 00:01:04,177
+podemos sustituir e elevada <bookmark mark='L'/> a la 0.1 x al
+
+18
+00:01:04,277 --> 00:01:07,952
+cuadrado por ye <bookmark mark='M'/> y escribir la relación entre la
+
+19
+00:01:08,052 --> 00:01:12,004
+derivada y la <bookmark mark='N'/> función original en una sola expresión
+
+20
+00:01:12,104 --> 00:01:16,555
+<bookmark mark='O'/>, esto es una ecuación <bookmark mark='P'/> diferencial, no es
+
+21
+00:01:16,655 --> 00:01:20,774
+más <bookmark mark='Q'/> que una expresión matemática que guarda la relación
+
+22
+00:01:20,874 --> 00:01:22,661
+entre una función y sus derivadas.
+

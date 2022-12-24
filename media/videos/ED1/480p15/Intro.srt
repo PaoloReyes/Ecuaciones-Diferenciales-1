@@ -1,0 +1,20 @@
+1
+00:00:00,000 --> 00:00:04,013
+En este video vamos a comenzar una serie sobre ecuaciones
+
+2
+00:00:04,113 --> 00:00:08,920
+diferenciales, en ella busco mostrar realmente la aplicación de esta
+
+3
+00:00:09,020 --> 00:00:12,961
+rama de las matemáticas y dejar de ver estas expresiones
+
+4
+00:00:13,061 --> 00:00:17,507
+solo como un tema complejo que tenemos <bookmark mark='A'/> que
+
+5
+00:00:17,607 --> 00:00:21,332
+aprender más allá del cálculo diferencial e integral.
+

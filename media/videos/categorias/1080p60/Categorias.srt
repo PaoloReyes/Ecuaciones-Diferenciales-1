@@ -1,0 +1,20 @@
+1
+00:00:00,000 --> 00:00:02,461
+Debido a la gran variedad <bookmark mark='A'/> de ecuaciones
+
+2
+00:00:02,561 --> 00:00:04,809
+diferenciales que existen y a los diversos métodos para
+
+3
+00:00:04,909 --> 00:00:08,181
+resolverlas es <bookmark mark='B'/> necesario clasificarlas para poder trabajar
+
+4
+00:00:08,281 --> 00:00:10,487
+con ellas de una forma más ordenada, podemos <bookmark
+
+5
+00:00:10,587 --> 00:00:12,621
+mark='C'/> separarlas en 3 principales categorías:
+
