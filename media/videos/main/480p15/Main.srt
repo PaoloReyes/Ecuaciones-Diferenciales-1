@@ -1,0 +1,192 @@
+1
+00:00:00,000 --> 00:00:02,752
+En este video vamos a comenzar una serie sobre ecuaciones
+
+2
+00:00:02,852 --> 00:00:06,155
+diferenciales, en ella busco mostrar realmente la aplicación de esta
+
+3
+00:00:06,255 --> 00:00:08,958
+rama de las matemáticas y dejar de ver estas expresiones
+
+4
+00:00:09,058 --> 00:00:12,111
+solo como un tema complejo que tenemos <bookmark mark='A'/> que
+
+5
+00:00:12,211 --> 00:00:14,763
+aprender más allá del cálculo diferencial e integral.
+
+6
+00:00:15,866 --> 00:00:17,616
+Podemos comenzar a hablar de ecuaciones
+
+7
+00:00:17,716 --> 00:00:19,371
+diferenciales partiendo de un ejemplo
+
+8
+00:00:19,533 --> 00:00:21,831
+Si tenemos a la función <bookmark mark='A'/> y igual a e
+
+9
+00:00:21,931 --> 00:00:24,828
+elevado a 0.1 x al <bookmark mark='B'/> cuadrado y obtenemos <bookmark
+
+10
+00:00:24,928 --> 00:00:27,397
+mark='C'/> su derivada, vemos que es igual a 0.2 x <bookmark
+
+11
+00:00:27,497 --> 00:00:30,223
+mark='D'/> por e elevado a 0.1 x al cuadrado <bookmark mark='E'/>.
+
+12
+00:00:30,323 --> 00:00:33,306
+Si ponemos ambas funciones en la pantalla nos damos <bookmark mark='F'/>
+
+13
+00:00:33,406 --> 00:00:35,832
+cuenta que la derivada de <bookmark mark='G'/> y es igual a
+
+14
+00:00:35,932 --> 00:00:39,643
+ye <bookmark mark='H'/> multiplicada por un número <bookmark mark='I'/>, entonces podemos
+
+15
+00:00:39,743 --> 00:00:42,340
+sustituir e elevada <bookmark mark='J'/> a la 0.1 x al cuadrado
+
+16
+00:00:42,440 --> 00:00:45,252
+por ye <bookmark mark='K'/> y escribir la relación entre la derivada
+
+17
+00:00:45,352 --> 00:00:48,420
+y la <bookmark mark='L'/> función original en una sola expresión <bookmark
+
+18
+00:00:48,520 --> 00:00:51,675
+mark='M'/>, esto es una ecuación <bookmark mark='N'/> diferencial, no es más
+
+19
+00:00:51,775 --> 00:00:55,014
+que una expresión matemática que guarda <bookmark mark='O'/> la relación entre
+
+20
+00:00:55,114 --> 00:00:56,213
+una función y sus derivadas.
+
+21
+00:00:57,200 --> 00:00:59,598
+Debido a la gran variedad <bookmark mark='A'/> de ecuaciones
+
+22
+00:00:59,698 --> 00:01:01,888
+diferenciales que existen y a los diversos métodos para
+
+23
+00:01:01,988 --> 00:01:05,177
+resolverlas es <bookmark mark='B'/> necesario clasificarlas para poder trabajar
+
+24
+00:01:05,277 --> 00:01:07,426
+con ellas de una forma más ordenada, podemos <bookmark
+
+25
+00:01:07,526 --> 00:01:09,508
+mark='C'/> separarlas en 3 principales categorías:
+
+26
+00:01:09,600 --> 00:01:11,436
+La clasificación por tipo es quizá una de las más
+
+27
+00:01:11,536 --> 00:01:13,964
+fáciles de comprender ya que solo se divide <bookmark mark='A'/>
+
+28
+00:01:14,064 --> 00:01:16,691
+en dos, EDO y EDP, EDO <bookmark mark='WAIT_EDO'/> significa ecuación
+
+29
+00:01:16,791 --> 00:01:20,208
+diferencial ordinaria <bookmark mark='EDO_MEANING'/>, y son ecuaciones que solo contienen
+
+30
+00:01:20,308 --> 00:01:23,724
+derivadas respecto a una variable independiente <bookmark mark='DISPLAY_EDO'/>, se pueden
+
+31
+00:01:23,824 --> 00:01:26,490
+identificar facilmente con solo observar las derivadas y verificar que
+
+32
+00:01:26,590 --> 00:01:28,545
+todas las variables con respecto a las que se derive
+
+33
+00:01:28,645 --> 00:01:31,311
+<bookmark mark='INDICATE_DX'/> sean la misma, mientras que las EDP que
+
+34
+00:01:31,411 --> 00:01:34,748
+vienen de ecuación diferencial parcial <bookmark mark='EDP_MEANING'/>, son aquellas que
+
+35
+00:01:34,848 --> 00:01:37,712
+contienen derivadas respecto a dos o más variables independientes <bookmark
+
+36
+00:01:37,812 --> 00:01:40,873
+mark='DISPLAY_EDP'/>, estas se pueden identificar haciendo el mismo análisis que
+
+37
+00:01:40,973 --> 00:01:43,639
+con las ecuaciones diferenciales ordinarias y verificar si hay almenos
+
+38
+00:01:43,739 --> 00:01:47,195
+dos variables <bookmark mark='INDICATE_DX_2'/> diferentes. Otra forma de identificarlas es
+
+39
+00:01:47,295 --> 00:01:50,396
+observar <bookmark mark='WAIT_SYMBOL'/> si la ecuación diferencial usa el símbolo
+
+40
+00:01:50,496 --> 00:01:52,964
+δ en <bookmark mark='INDICATE_DELTA'/> lugar de una d esto quiere
+
+41
+00:01:53,064 --> 00:01:55,256
+decir que estamos tratando con derivadas parciales y en la
+
+42
+00:01:55,356 --> 00:01:57,587
+mayoría de los casos tambien significa que estamos ante una
+
+43
+00:01:57,687 --> 00:02:01,657
+ecuación diferencial parcial. Las ecuaciones diferenciales <bookmark mark='WAIT_DELTA'/> ordinarias son
+
+44
+00:02:01,757 --> 00:02:03,198
+las más comunes y las que se usan en la
+
+45
+00:02:03,298 --> 00:02:05,371
+mayoría de las aplicaciones básicas, por lo que en esta
+
+46
+00:02:05,471 --> 00:02:07,663
+serie nos enfocaremos en ellas y posiblemente en un futuro
+
+47
+00:02:07,763 --> 00:02:10,784
+<bookmark mark='WAIT_HIGHLIGHT'/> haga un video sobre sus extrañas hermanas las
+
+48
+00:02:10,884 --> 00:02:12,167
+ecuaciones diferenciales parciales.
+

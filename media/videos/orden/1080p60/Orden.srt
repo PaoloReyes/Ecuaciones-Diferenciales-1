@@ -1,0 +1,172 @@
+1
+00:00:00,000 --> 00:00:02,926
+Es momento de hablar del segundo criterio para clasificar ecuaciones
+
+2
+00:00:03,026 --> 00:00:05,953
+diferenciales. <bookmark mark='INTRO'/> El orden es un valor que nos
+
+3
+00:00:06,053 --> 00:00:08,267
+indica cual es la mayor derivada de la ecuación. Por
+
+4
+00:00:08,367 --> 00:00:11,516
+ejemplo, si tenemos a la ecuación <bookmark mark='ED'/> diferencial donde
+
+5
+00:00:11,616 --> 00:00:13,386
+la derivada de y con respecto a x es igual
+
+6
+00:00:13,486 --> 00:00:16,679
+<bookmark mark='ED_END'/> a 0.2xy podemos catalogarla como de primer orden
+
+7
+00:00:16,779 --> 00:00:19,840
+porque su <bookmark mark='MAX'/> máxima derivada es la primera derivada
+
+8
+00:00:19,940 --> 00:00:22,599
+de y <bookmark mark='MAX_END'/>, por otro lado si tenemos esta
+
+9
+00:00:22,699 --> 00:00:26,827
+<bookmark mark='ED_2_BEGIN'/> ecuación diferencial entonces tenemos una ecuación diferencial de
+
+10
+00:00:26,927 --> 00:00:30,077
+segundo <bookmark mark='ED_2_END'/> orden porque su máxima derivada es la
+
+11
+00:00:30,177 --> 00:00:31,011
+segunda derivada de y
+
+12
+00:00:31,516 --> 00:00:34,024
+Es importante notar que el orden no es lo mismo que el
+
+13
+00:00:34,124 --> 00:00:36,922
+grado en una ecuación diferencial y por lo tanto no debe ser
+
+14
+00:00:37,022 --> 00:00:41,413
+confundido, por ejemplo en la siguiente <bookmark mark='INTRO'/> ecuación se podría confundir
+
+15
+00:00:41,513 --> 00:00:44,745
+el orden con el grado, sorprendentemente el orden de esta ecuación es
+
+16
+00:00:44,845 --> 00:00:47,643
+2 y no 3, esto se debe a <bookmark mark='ED_3_WAIT'/> que el
+
+17
+00:00:47,743 --> 00:00:49,961
+3 que está al lado de la derivada no es su orden
+
+18
+00:00:50,061 --> 00:00:52,521
+si no que es su grado y signfica que se está elevando
+
+19
+00:00:52,621 --> 00:00:56,191
+al cubo, por lo tanto la derivada de mayor orden <bookmark mark='ED_3_END'/>
+
+20
+00:00:56,291 --> 00:00:58,557
+y por ende el orden de la ecuación es el orden 2.
+
+21
+00:00:59,066 --> 00:01:01,448
+Hay algunos tips para identificar el orden de una ecuación
+
+22
+00:01:01,548 --> 00:01:04,871
+diferencial ordinaria por ejemplo en ocasiones <bookmark mark='INTRO'/> se suele
+
+23
+00:01:04,971 --> 00:01:09,107
+usar una notación diferencial <bookmark mark='ED_4_BEGIN'/> para describir ecuaciones diferenciales
+
+24
+00:01:09,207 --> 00:01:12,017
+de primer orden <bookmark mark='ED_4_END'/> en este tipo de notación
+
+25
+00:01:12,117 --> 00:01:15,525
+se escribe una función <bookmark mark='M_BEGIN'/> multivariable M multiplicada por
+
+26
+00:01:15,625 --> 00:01:18,735
+dx <bookmark mark='M_END'/> y otra función multivariable N multiplicada por
+
+27
+00:01:18,835 --> 00:01:21,687
+dy <bookmark mark='N_END'/>, en esos casos las ecuaciones siempre son
+
+28
+00:01:21,787 --> 00:01:25,281
+de primer orden. En otros ejemplos <bookmark mark='WAIT_GENERAL'/> podemos encontrar
+
+29
+00:01:25,381 --> 00:01:28,191
+ecuaciones diferenciales de n-ésimo orden por su forma general donde
+
+30
+00:01:28,291 --> 00:01:31,657
+tenemos una <bookmark mark='GENERAL_BEGIN'/> función igualada a 0 cuyas variables
+
+31
+00:01:31,757 --> 00:01:33,668
+son x, y, la derivada de y, la segunda derivada
+
+32
+00:01:33,768 --> 00:01:35,422
+de y y así hasta la enésima derivada de y
+
+33
+00:01:35,522 --> 00:01:38,760
+<bookmark mark='GENERAL_END'/> y para identificar el orden de estas ecuaciones
+
+34
+00:01:38,860 --> 00:01:42,054
+miramos cada derivada como lo hemos <bookmark mark='ED_6_BEGIN'/> hecho hasta
+
+35
+00:01:42,154 --> 00:01:44,921
+el momento y buscamos la más profunda <bookmark mark='ED_6_END'/> ,
+
+36
+00:01:45,021 --> 00:01:48,430
+finalmente podemos encontrar ecuaciones diferenciales en su forma normal <bookmark
+
+37
+00:01:48,530 --> 00:01:51,254
+mark='NORMAL_BEGIN'/> que no es más que la forma general despejada
+
+38
+00:01:51,354 --> 00:01:53,179
+para la derivada de mayor orden y en ese caso
+
+39
+00:01:53,279 --> 00:01:56,945
+el orden se encuentra <bookmark mark='NORMAL_HIGHLIGHT'/> simplemente mirando al término
+
+40
+00:01:57,045 --> 00:01:58,186
+que está solo en la igualdad.
+
+41
+00:01:58,800 --> 00:02:01,858
+Estos son solo algunos tips para identificar más facilmente el
+
+42
+00:02:01,958 --> 00:02:05,067
+orden de una ecuación diferencial, pero en general es necesario
+
+43
+00:02:05,167 --> 00:02:07,868
+hacer una inspección completa para determinar su orden.
+

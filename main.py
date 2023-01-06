@@ -8,10 +8,11 @@ from manim import *
 from manim_voiceover import VoiceoverScene
 from manim_voiceover.services.gtts import GTTSService
 from manim_voiceover.services.recorder import RecorderService
-from intro import Intro
-from que_son import QueSon
-from categorias import Categorias
-from tipos import Tipos
+from sub_scenes.intro import Intro
+from sub_scenes.que_son import QueSon
+from sub_scenes.categorias import Categorias
+from sub_scenes.tipos import Tipos
+from sub_scenes.orden import Orden
 
 # Configuración Global
 config.background_color = WHITE
@@ -29,3 +30,4 @@ class Main(VoiceoverScene):
         main_scene.wait(0.5)
         Categorias.construct(main_scene)
         Tipos.construct(main_scene)
+        Orden.construct(main_scene)
