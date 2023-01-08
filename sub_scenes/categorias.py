@@ -30,7 +30,7 @@ class Categorias(VoiceoverScene):
                         MathTex(r"\frac{d^2y}{dx^2}=\sqrt{1+\left(\frac{dy}{dx}\right)^2}"),
                         MathTex(r"\frac{d^2y}{dx^2}=-\frac{k}{y^2}"),
                         MathTex(r"\sin(\theta)y'''-\cos(\theta)y'=2"),
-                        MathTex(r"y''-\left(1-\frac{y'^2}{3}\right)y'+y=0"),
+                        MathTex(r"y''-\left(1-\frac{y'}{3}\right)y'+y=0"),
                         MathTex(r"(y^2-1)dx+xdy=0")).arrange_in_grid(rows=3, cols=3, buff=(1, 1.5)).scale(0.7)
             main_scene.wait_until_bookmark('A')
             main_scene.play(FadeTransform(main_scene.eq_diff, eqs), run_time=tracker.time_until_bookmark('B'))

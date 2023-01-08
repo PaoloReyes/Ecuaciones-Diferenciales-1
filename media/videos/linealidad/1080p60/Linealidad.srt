@@ -1,0 +1,60 @@
+1
+00:00:00,000 --> 00:00:05,887
+El último criterio para clasificar ecuaciones diferenciales <bookmark mark='INTRO'/> es
+
+2
+00:00:05,987 --> 00:00:10,153
+la linealidad, una ecuación diferencial es lineal cuando se ve
+
+3
+00:00:10,253 --> 00:00:15,108
+de la siguiente <bookmark mark='ED'/> forma. En ella podemos identificar
+
+4
+00:00:15,208 --> 00:00:18,687
+a la variable dependiente y sus derivadas y cada una
+
+5
+00:00:18,787 --> 00:00:22,334
+multiplica a un coeficiente a sub n que son funciones
+
+6
+00:00:22,434 --> 00:00:26,119
+de la variable independiente x y además hay una función
+
+7
+00:00:26,219 --> 00:00:29,492
+g que solo depende de la variablde independiente.
+
+8
+00:00:29,583 --> 00:00:34,505
+En palabras más simples podemos decir que una ecuación diferencial
+
+9
+00:00:34,605 --> 00:00:38,538
+es lineal cuando tenemos la función incógnita y y sus
+
+10
+00:00:38,638 --> 00:00:44,169
+derivadas multiplicadas por funciones que solamente dependen de x. Algunos
+
+11
+00:00:44,269 --> 00:00:49,115
+ejemplos de ecuaciones diferenciales lineales son los siguientes:
+
+12
+00:00:49,200 --> 00:00:55,954
+Por otro lado algunos ejemplos de ecuaciones diferenciales no lineales son: 1 menos y
+
+13
+00:00:56,054 --> 00:01:00,389
+por la derivada de y con respecto a x mas dos y igual a
+
+14
+00:01:00,489 --> 00:01:05,549
+e elevado a la x porque la derivada de y respecto a x multiplica
+
+15
+00:01:05,649 --> 00:01:10,388
+a una función que depende de y y como acabamos de establecer
+

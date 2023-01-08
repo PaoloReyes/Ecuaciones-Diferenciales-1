@@ -1,0 +1,120 @@
+1
+00:00:00,000 --> 00:00:05,100
+El último criterio para clasificar ecuaciones diferenciales <bookmark mark='INTRO'/> es
+
+2
+00:00:05,200 --> 00:00:08,807
+la linealidad, una ecuación diferencial es lineal cuando se ve
+
+3
+00:00:08,907 --> 00:00:13,111
+de la siguiente <bookmark mark='ED'/> forma. En ella podemos identificar
+
+4
+00:00:13,211 --> 00:00:16,937
+a la variable <bookmark mark='Y'/> dependiente y sus derivadas y
+
+5
+00:00:17,037 --> 00:00:20,703
+cada una multiplica a <bookmark mark='A'/> un coeficiente a sub
+
+6
+00:00:20,803 --> 00:00:23,812
+n que son funciones de la variable independiente x y
+
+7
+00:00:23,912 --> 00:00:27,518
+<bookmark mark='G'/> además hay una función g que solo depende
+
+8
+00:00:27,618 --> 00:00:29,252
+de la variable independiente.
+
+9
+00:00:29,800 --> 00:00:32,856
+En palabras más simples podemos decir <bookmark mark='INTRO'/>
+
+10
+00:00:32,956 --> 00:00:36,419
+que una ecuación diferencial es lineal <bookmark mark='ED_TRANSFORM'/>
+
+11
+00:00:36,519 --> 00:00:39,728
+cuando tenemos la función <bookmark mark='INDICATE'/> incógnita y
+
+12
+00:00:39,828 --> 00:00:42,986
+y sus derivadas multiplicadas <bookmark mark='X'/> por funciones
+
+13
+00:00:43,086 --> 00:00:44,412
+que solamente dependen de x.
+
+14
+00:00:44,933 --> 00:00:47,759
+Algunos ejemplos de ecuaciones diferenciales <bookmark
+
+15
+00:00:47,859 --> 00:00:50,089
+mark='INTRO'/> lineales son los siguientes:
+
+16
+00:00:50,333 --> 00:00:54,905
+En todas ellas podemos ver de color azul a la función y y a
+
+17
+00:00:55,005 --> 00:01:00,289
+sus derivadas y de color verde a los coeficientes que dependen de x.
+
+18
+00:01:01,066 --> 00:01:05,333
+Por otro lado algunos ejemplos de ecuaciones diferenciales no <bookmark
+
+19
+00:01:05,433 --> 00:01:09,330
+mark='WRITE'/> lineales son: los siguientes, en este caso esta no
+
+20
+00:01:09,430 --> 00:01:12,897
+es una ecuación diferencial lineal porque la derivada de y
+
+21
+00:01:12,997 --> 00:01:16,956
+respecto a x multiplica <bookmark mark='WRONG'/> a una función que
+
+22
+00:01:17,056 --> 00:01:20,584
+depende de y y como acabamos de establecer los coeficientes
+
+23
+00:01:20,684 --> 00:01:25,258
+de una ecuación diferencial <bookmark mark='BAD'/> lineal no pueden depender
+
+24
+00:01:25,358 --> 00:01:29,932
+de la función incógnita. <bookmark mark='SEGUNDA'/> La siguiente ecuación no
+
+25
+00:01:30,032 --> 00:01:33,560
+es lineal porque incluye una función no lineal de <bookmark
+
+26
+00:01:33,660 --> 00:01:36,819
+mark='SENO'/> y como lo es el seno. Y finalmente esta
+
+27
+00:01:36,919 --> 00:01:41,678
+última ecuación tampoco es lineal porque la función <bookmark mark='CUADRADO'/>
+
+28
+00:01:41,778 --> 00:01:43,830
+incógnita está elevada al cuadrado.
+
+29
+00:01:43,866 --> 00:01:48,456
+De esta forma ya sabemos cuales son las características para
+
+30
+00:01:48,556 --> 00:01:52,598
+determinar si una ecuación diferencial es lineal o no
+

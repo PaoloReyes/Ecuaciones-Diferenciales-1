@@ -10,8 +10,8 @@ class Orden(VoiceoverScene):
         from manim_voiceover.services.gtts import GTTSService
         from manim_voiceover.services.recorder import RecorderService
 
-        #main_scene.set_speech_service(GTTSService("es", transcription_model='base'))
-        main_scene.set_speech_service(RecorderService())
+        main_scene.set_speech_service(GTTSService("es", transcription_model='base'))
+        #main_scene.set_speech_service(RecorderService())
 
         main_scene.title = Text("Clasificación", font_size=80, color=BLUE).to_edge(UP)
         main_scene.tipos = VGroup(Text("Tipo"), Text("Orden"), Text("Linealidad")).arrange_submobjects(RIGHT, buff=1.5).next_to(main_scene.title, DOWN).shift(0.5*DOWN+RIGHT)
@@ -50,7 +50,7 @@ class Orden(VoiceoverScene):
     def construct(main_scene):
         with main_scene.voiceover(text="Es momento de hablar del segundo criterio para clasificar ecuaciones diferenciales. <bookmark mark='INTRO'/> El orden es un valor que nos indica cual es la mayor derivada de la ecuación. Por ejemplo, si tenemos a la ecuación <bookmark mark='ED'/> diferencial donde la derivada de y con respecto a x es igual <bookmark mark='ED_END'/> a 0.2xy podemos catalogarla como de primer orden porque su <bookmark mark='MAX'/> máxima derivada es la primera derivada de y <bookmark mark='MAX_END'/>, por otro lado si tenemos esta <bookmark mark='ED_2_BEGIN'/> ecuación diferencial entonces tenemos una ecuación diferencial de segundo <bookmark mark='ED_2_END'/> orden porque su máxima derivada es la segunda derivada de y") as tracker:
             main_scene.wait_until_bookmark('INTRO')
-            main_scene.play(main_scene.tipos[1].animate.to_edge(UP).scale(1.75).set_color(RED), main_scene.tipos[2].animate.set_opacity(0), main_scene.tipos_tipo.animate.set_opacity(0), main_scene.title.animate.set_opacity(0), run_time=1.75)
+            main_scene.play(main_scene.tipos[1].animate.move_to(main_scene.title.get_center()).scale(1.75).set_color(RED), main_scene.tipos[2].animate.set_opacity(0), main_scene.tipos_tipo.animate.set_opacity(0), main_scene.title.animate.set_opacity(0), run_time=1.75)
             ed = MathTex(r"\frac{dy}{dx}", "=", "0.2xy", font_size=80, color=BLACK)
             main_scene.wait_until_bookmark('ED')
             main_scene.play(Write(ed), run_time=tracker.time_until_bookmark('ED_END'))
@@ -123,6 +123,6 @@ class Orden(VoiceoverScene):
             eds = VGroup(ed, ed_2, ed_3, ed_4, ed_5, ed_6, ed_9, ed_10).arrange(DOWN).shift(0.6*DOWN)
             main_scene.play(TransformMatchingTex(ed_7, eds[6]), TransformMatchingTex(ed_8, eds[7]), FadeIn(eds[:-2]), run_time=1.5)
         
-        orden = VGroup(eds, main_scene.tipos[1])
-        main_scene.play(orden[0].animate.scale(0.7).shift(0.7*DOWN), orden[1].animate.move_to(main_scene.center_1).scale(0.57).set_color(BLACK), main_scene.tipos[2].animate.set_opacity(1), main_scene.title.animate.set_opacity(1), main_scene.tipos_tipo.animate.set_opacity(1))
+        main_scene.orden = VGroup(eds, main_scene.tipos[1])
+        main_scene.play(main_scene.orden[0].animate.scale(0.7).shift(0.7*DOWN), main_scene.orden[1].animate.move_to(main_scene.center_1).scale(0.57).set_color(BLACK), main_scene.tipos[2].animate.set_opacity(1), main_scene.title.animate.set_opacity(1), main_scene.tipos_tipo.animate.set_opacity(1))
         main_scene.wait(0.2)

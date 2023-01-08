@@ -10,8 +10,8 @@ class Tipos(VoiceoverScene):
         from manim_voiceover.services.gtts import GTTSService
         from manim_voiceover.services.recorder import RecorderService
 
-        #main_scene.set_speech_service(GTTSService("es", transcription_model='base'))
-        main_scene.set_speech_service(RecorderService())
+        main_scene.set_speech_service(GTTSService("es", transcription_model='base'))
+        #main_scene.set_speech_service(RecorderService())
 
         main_scene.title = Text("Clasificación", font_size=80, color=BLUE).to_edge(UP)
         main_scene.tipos = VGroup(Text("Tipo"), Text("Orden"), Text("Linealidad")).arrange_submobjects(RIGHT, buff=1.5).next_to(main_scene.title, DOWN).shift(0.5*DOWN+RIGHT)
@@ -22,7 +22,7 @@ class Tipos(VoiceoverScene):
         with main_scene.voiceover(text="La clasificación por tipo es quizá una de las más fáciles de comprender ya que solo se divide <bookmark mark='A'/> en dos, EDO y EDP, EDO <bookmark mark='WAIT_EDO'/> significa ecuación diferencial ordinaria <bookmark mark='EDO_MEANING'/>, y son ecuaciones que solo contienen derivadas respecto a una variable independiente <bookmark mark='DISPLAY_EDO'/>, se pueden identificar facilmente con solo observar las derivadas y verificar que todas las variables con respecto a las que se derive <bookmark mark='INDICATE_DX'/> sean la misma, mientras que las EDP que vienen de ecuación diferencial parcial <bookmark mark='EDP_MEANING'/>, son aquellas que contienen derivadas respecto a dos o más variables independientes <bookmark mark='DISPLAY_EDP'/>, estas se pueden identificar haciendo el mismo análisis que con las ecuaciones diferenciales ordinarias y verificar si hay almenos dos variables <bookmark mark='INDICATE_DX_2'/> diferentes. Otra forma de identificarlas es observar <bookmark mark='WAIT_SYMBOL'/> si la ecuación diferencial usa el símbolo δ en <bookmark mark='INDICATE_DELTA'/> lugar de una d esto quiere decir que estamos tratando con derivadas parciales y en la mayoría de los casos tambien significa que estamos ante una ecuación diferencial parcial. Las ecuaciones diferenciales <bookmark mark='WAIT_DELTA'/> ordinarias son las más comunes y las que se usan en la mayoría de las aplicaciones básicas, por lo que en esta serie nos enfocaremos en ellas y posiblemente en un futuro <bookmark mark='WAIT_HIGHLIGHT'/> haga un video sobre sus extrañas hermanas las ecuaciones diferenciales parciales.") as tracker:
             main_scene.center = main_scene.tipos[0].get_center()
             main_scene.center_1 = main_scene.tipos[1].get_center()
-            main_scene.play(main_scene.tipos[0].animate.set_color(RED).move_to(main_scene.title.get_center()).scale(1.75), *[obj.animate.set_opacity(0) if obj != main_scene.tipos else obj[1:].animate.set_opacity(0) for obj in main_scene.mobjects])
+            main_scene.play(main_scene.tipos[0].animate.set_color(RED).move_to(main_scene.title.get_center()).scale(1.75), *[obj.animate.set_opacity(0) if obj != main_scene.tipos else obj[1:].animate.set_opacity(0) for obj in main_scene.mobjects], run_time=1.75)
             main_scene.wait_until_bookmark('A')
             edo = Text("EDO", font_size=45).next_to(main_scene.tipos[0], DL).shift(LEFT)
             edp = Text("EDP", font_size=45).next_to(main_scene.tipos[0], DR).shift(RIGHT)

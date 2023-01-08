@@ -1,92 +1,92 @@
 1
-00:00:00,000 --> 00:00:01,836
+00:00:00,000 --> 00:00:02,834
 La clasificación por tipo es quizá una de las más
 
 2
-00:00:01,936 --> 00:00:04,364
+00:00:02,934 --> 00:00:06,666
 fáciles de comprender ya que solo se divide <bookmark mark='A'/>
 
 3
-00:00:04,464 --> 00:00:07,091
+00:00:06,766 --> 00:00:10,797
 en dos, EDO y EDP, EDO <bookmark mark='WAIT_EDO'/> significa ecuación
 
 4
-00:00:07,191 --> 00:00:10,608
+00:00:10,897 --> 00:00:16,127
 diferencial ordinaria <bookmark mark='EDO_MEANING'/>, y son ecuaciones que solo contienen
 
 5
-00:00:10,708 --> 00:00:14,124
+00:00:16,227 --> 00:00:21,456
 derivadas respecto a una variable independiente <bookmark mark='DISPLAY_EDO'/>, se pueden
 
 6
-00:00:14,224 --> 00:00:16,890
+00:00:21,556 --> 00:00:25,647
 identificar facilmente con solo observar las derivadas y verificar que
 
 7
-00:00:16,990 --> 00:00:18,945
+00:00:25,747 --> 00:00:28,761
 todas las variables con respecto a las que se derive
 
 8
-00:00:19,045 --> 00:00:21,711
+00:00:28,861 --> 00:00:32,953
 <bookmark mark='INDICATE_DX'/> sean la misma, mientras que las EDP que
 
 9
-00:00:21,811 --> 00:00:25,148
+00:00:33,053 --> 00:00:38,162
 vienen de ecuación diferencial parcial <bookmark mark='EDP_MEANING'/>, son aquellas que
 
 10
-00:00:25,248 --> 00:00:28,112
+00:00:38,262 --> 00:00:42,653
 contienen derivadas respecto a dos o más variables independientes <bookmark
 
 11
-00:00:28,212 --> 00:00:31,273
+00:00:42,753 --> 00:00:47,443
 mark='DISPLAY_EDP'/>, estas se pueden identificar haciendo el mismo análisis que
 
 12
-00:00:31,373 --> 00:00:34,039
+00:00:47,543 --> 00:00:51,635
 con las ecuaciones diferenciales ordinarias y verificar si hay almenos
 
 13
-00:00:34,139 --> 00:00:37,595
+00:00:51,735 --> 00:00:57,024
 dos variables <bookmark mark='INDICATE_DX_2'/> diferentes. Otra forma de identificarlas es
 
 14
-00:00:37,695 --> 00:00:40,796
+00:00:57,124 --> 00:01:01,874
 observar <bookmark mark='WAIT_SYMBOL'/> si la ecuación diferencial usa el símbolo
 
 15
-00:00:40,896 --> 00:00:43,364
+00:01:01,974 --> 00:01:05,766
 δ en <bookmark mark='INDICATE_DELTA'/> lugar de una d esto quiere
 
 16
-00:00:43,464 --> 00:00:45,656
+00:01:05,866 --> 00:01:09,239
 decir que estamos tratando con derivadas parciales y en la
 
 17
-00:00:45,756 --> 00:00:47,987
+00:01:09,339 --> 00:01:12,772
 mayoría de los casos tambien significa que estamos ante una
 
 18
-00:00:48,087 --> 00:00:52,057
+00:01:12,872 --> 00:01:18,940
 ecuación diferencial parcial. Las ecuaciones diferenciales <bookmark mark='WAIT_DELTA'/> ordinarias son
 
 19
-00:00:52,157 --> 00:00:53,598
+00:01:19,040 --> 00:01:21,275
 las más comunes y las que se usan en la
 
 20
-00:00:53,698 --> 00:00:55,771
+00:01:21,375 --> 00:01:24,568
 mayoría de las aplicaciones básicas, por lo que en esta
 
 21
-00:00:55,871 --> 00:00:58,063
+00:01:24,668 --> 00:01:28,041
 serie nos enfocaremos en ellas y posiblemente en un futuro
 
 22
-00:00:58,163 --> 00:01:01,184
+00:01:28,141 --> 00:01:32,772
 <bookmark mark='WAIT_HIGHLIGHT'/> haga un video sobre sus extrañas hermanas las
 
 23
-00:01:01,284 --> 00:01:02,567
+00:01:32,872 --> 00:01:34,868
 ecuaciones diferenciales parciales.
 
